@@ -1,0 +1,77 @@
+body {background-color: white;}
+
+
+
+header {
+Background-color: black;  
+Font-family: "Andale Mono", AndaleMono, monospace; 
+color: white;
+Text-align: center;
+margin-left: 20px;
+text-decoration-line: underline;
+text-decoration-color: white;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 4.875em;
+border-style: solid;
+border-width: 20px 20px; 
+padding: 30px;
+}
+   
+   
+
+.p {
+letter-spacing: 5px;
+line-height: 1.5;
+font-family: "Times New Roman", Times, serif;
+Color: black;
+Text-align: center;
+margin-left: 20px;
+font-size: 2.5em;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+.ty {
+font-family: "Times New Roman", Times, serif;
+Color: black;
+Text-align: center;
+margin-left: 20px;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 1.60em;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+
+.a {
+font-family: "Times New Roman", Times, serif;
+Color: black;
+Text-align: center;
+margin-left: 20px;
+font-size: 1em;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+.f {
+font-family: "Times New Roman", Times, serif;
+letter-spacing: 5px;
+line-height: 1.5;
+Color: black;
+Text-align: center;
+margin-left: 20px;
+font-weight: bold;
+font-size: 1.75em;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
