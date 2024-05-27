@@ -40,6 +40,7 @@ Color: black;
 Text-align: left;
 margin-left: 20px;
 font-size: 1.6em;
+padding-top: 0px;
 padding-right: 10px;
 padding-left: 10px;
 }
@@ -52,6 +53,7 @@ Color: black;
 Text-align: left;
 margin-left: 20px;
 font-size: 1em;
+padding-top: 0px;
 padding-right: 10px;
 padding-left: 10px;
 }
@@ -65,7 +67,7 @@ Text-align: left;
 text-indent: 50px;
 margin-left: 20px;
 font-size: 1.4em;
-padding-top: 10px;
+padding-top: 0px;
 padding-right: 10px;
 padding-bottom: 4px;
 padding-left: 10px;
