@@ -3,6 +3,7 @@ body {background-color: rgb(100,110,130);}
 
 
 header {
+Background-color: black; 
 Font-family: "Andale Mono", AndaleMono, monospace; 
 color: white;
 Text-align: center;
@@ -11,7 +12,9 @@ text-decoration-color: white;
 text-transform: uppercase;
 font-weight: bold;
 font-size: 2.875em;
-padding: 0px;
+border-style: solid;
+border-width: 0px 0px; 
+padding: 30px;
 }
 
 .pIndex {
