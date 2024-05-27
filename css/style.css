@@ -17,19 +17,18 @@ border-style: solid;
 border-width: 20px 20px; 
 padding: 30px;
 }
-   
-.pH {
+
+.p {
 letter-spacing: 5px;
 line-height: 1.5;
 font-family: "Arial", Helvetica, sans-serif;
 Color: black;
 Text-align: left;
-text-indent: 50px;
 margin-left: 20px;
-font-size: 1.8em;
-font-weight: bold;
+font-size: 1.4em;
 padding-top: 10px;
 padding-right: 10px;
+padding-bottom: 10px;
 padding-left: 10px;
 }
 
@@ -56,17 +55,19 @@ font-size: 1em;
 padding-right: 10px;
 padding-left: 10px;
 }
-.p {
+
+.pH {
 letter-spacing: 5px;
 line-height: 1.5;
 font-family: "Arial", Helvetica, sans-serif;
 Color: black;
 Text-align: left;
+text-indent: 50px;
 margin-left: 20px;
-font-size: 1.4em;
+font-size: 1.8em;
+font-weight: bold;
 padding-top: 10px;
 padding-right: 10px;
-padding-bottom: 10px;
 padding-left: 10px;
 }
 
