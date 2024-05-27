@@ -36,14 +36,15 @@ letter-spacing: 5px;
 line-height: 1.5;
 font-family: "Arial", Helvetica, sans-serif;
 Color: black;
-Text-align: left;
+Text-align: center;
 margin-left: 20px;
 font-size: 1.4em;
-padding-top: 10px;
+padding-top: 30px;
 padding-right: 20px;
 padding-bottom: 4px;
 padding-left: 20px;
 }
+
 
 .pCareer {
 letter-spacing: 5px;
