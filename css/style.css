@@ -18,6 +18,21 @@ border-width: 20px 20px;
 padding: 30px;
 }
 
+.p {
+letter-spacing: 5px;
+line-height: 1.5;
+font-family: "Arial", Helvetica, sans-serif;
+Color: black;
+Text-align: left;
+margin-left: 20px;
+font-size: 1.4em;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 4px;
+padding-left: 10px;
+}
+
+
 .pH {
 letter-spacing: 5px;
 line-height: 1.5;
@@ -58,7 +73,7 @@ padding-right: 10px;
 padding-left: 10px;
 }
 
-.p {
+.p4 {
 letter-spacing: 5px;
 line-height: 1.5;
 font-family: "Arial", Helvetica, sans-serif;
