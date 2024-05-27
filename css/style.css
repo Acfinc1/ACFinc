@@ -43,8 +43,8 @@ margin-left: 20px;
 font-size: 1.8em;
 font-weight: bold; 
 padding-top: 10px;
-padding-right: 10px;
-padding-left: 10px;
+padding-right: 14px;
+padding-left: 14px;
 }
 
 .p2 {
@@ -56,8 +56,8 @@ Text-align: left;
 margin-left: 20px;
 font-size: 1.6em;
 padding-top: 0px;
-padding-right: 10px;
-padding-left: 10px;
+padding-right: 14px;
+padding-left: 14px;
 }
 
 .p3 {
@@ -69,8 +69,8 @@ Text-align: left;
 margin-left: 20px;
 font-size: 1em;
 padding-top: 0px;
-padding-right: 10px;
-padding-left: 10px;
+padding-right: 14px;
+padding-left: 14px;
 }
 
 .p4 {
@@ -83,9 +83,9 @@ text-indent: 50px;
 margin-left: 20px;
 font-size: 1.4em;
 padding-top: 0px;
-padding-right: 10px;
-padding-bottom: 4px;
-padding-left: 10px;
+padding-right: 14px;
+padding-bottom: 0px;
+padding-left: 14px;
 }
 
 .ty {
