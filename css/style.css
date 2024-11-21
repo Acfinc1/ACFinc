@@ -25,6 +25,7 @@ padding: 30px;
 }
 
 .pIndex {
+  font-weight: bold;
 letter-spacing: 5px;
 line-height: 1.5;
 font-family: "Andale Mono", AndaleMono, monospace; 
