@@ -1,5 +1,11 @@
 body {background-color: rgb(249,255,253);}
-
+body {
+  background-image: url(‘images/a.jpg’);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
 
 
 header {
