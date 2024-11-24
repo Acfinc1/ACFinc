@@ -15,54 +15,50 @@ Background-color: black;
 Font-family: "Andale Mono", AndaleMono, monospace; 
 color: white;
 Text-align: center;
-margin-left: 0px;
 text-decoration-color: white;
 text-transform: uppercase;
 font-weight: bold;
 font-size: 1em;
+margin-left: 0px;
 border-style: solid;
 border-width: 0px 0px; 
 padding: 30px;
 }
 
 .index {
-Background-color: black; 
-background-image: url("../images/.jpeg");
-background-size: cover;
-outline-width: 5px;
-outline-style: solid; 
-outline-color: black;
-text-shadow:  grey 1px 0 15px;
-font-weight: bol;
-letter-spacing: 5px;
-line-height: 2;
-font-family: "Andale Mono", AndaleMono, monospace; 
-Color: white;
-Text-align: center;
-margin-top: 130px;
+  font-family: "Andale Mono", AndaleMono, monospace; 
+  Color: white;
+  font-size: 15px;
+  font-weight: bol;
+  letter-spacing: 5px;
+  line-height: 2;
+  text-shadow:  grey 1px 0 15px;
+  Text-align: center;
+  margin-top: 130px;
 Margin-right: 150px;
 margin-left: 150px;
-font-size: 15px;
+margin-bottom: px;
 padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
+Background-color: black; 
+background-size: cover;
+outline-width: 5px;
+outline-style: solid; 
+outline-color: black;
+background-image: url("../images/.jpeg");
 }
 
 .pAboutUs {
-Background-color: black; 
-background-size: cover;
-outline-width: 5px;
-outline-style: solid; 
-outline-color: black;
-text-shadow:  beig 2px 0 15px;
+font-family: "Andale Mono", AndaleMono, monospace; 
+Color: white;
+font-size: 15px;
 font-weight: bol;
 letter-spacing: 5px;
 line-height: 2;
-font-family: "Andale Mono", AndaleMono, monospace; 
-font-size: 15px;
-Color: white;
 Text-align: justified;
+text-shadow:  beig 2px 0 15px;
 margin-left: 5px;
 Margin-right: 5px;
 margin-top: 50px;
@@ -70,23 +66,22 @@ padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
+Background-color: black; 
+background-size: cover;
+outline-width: 5px;
+outline-style: solid; 
+outline-color: black;
 }
 
 .career {
-background-image: url("../images/.jpg");
-Background-color: black; 
-background-size: cover;
-outline-width: 5px;
-outline-style: solid; 
-outline-color: black;
-text-shadow:  grey 1px 0 15px;
-letter-spacing: 5px;
-line-height: 2;
-font-weight: bol;
 font-family: "Andale Mono", AndaleMono, monospace; 
 Color: white;
-Text-align: center;
 font-size: 15px;
+font-weight: bol;
+letter-spacing: 5px;
+line-height: 2;
+Text-align: center;
+text-shadow:  grey 1px 0 15px;
 margin-left: 5px;
 Margin-right: 5px;
 margin-top: 50px;
@@ -94,19 +89,25 @@ padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
+Background-color: black; 
+background-size: cover;
+outline-width: 5px;
+outline-style: solid; 
+outline-color: black;
+background-image: url("../images/.jpg");
 }
 
 
 
 .role {
-text-shadow:  grey 1px 0 15px;
-letter-spacing: 5px;
-line-height: ;
 font-family: "Andale Mono", AndaleMono, monospace; 
 Color: white;
-Text-align: left;
 font-size: 30px;
 font-weight: bold;
+letter-spacing: 5px;
+line-height: ;
+Text-align: left;
+text-shadow:  grey 1px 0 15px;
 margin-left: 5px;
 Margin-right: 5px;
 margin-top: 50px;
@@ -117,13 +118,13 @@ padding-left: 0px;
 }
 
 .phone {
-letter-spacing: 5px;
-line-height: 1.5;
 font-family: "Andale Mono", AndaleMono, monospace; 
 Color: white;
-Text-align: left;
 font-size: 15px;
 font-weight: bold;
+letter-spacing: 5px;
+line-height: 1.5;
+Text-align: left;
 margin-left: 5px;
 Margin-right: 5px;
 margin-top: 0px;
@@ -134,20 +135,14 @@ padding-left: 0px;
 }
 
 .asif {
-Background-color: black; 
-background-image: url("../images/.jpg");
-background-size: cover;
-outline-width: 5px;
-outline-style: solid; 
-outline-color: black;
-font-weight: bol;
-letter-spacing: 5px;
-line-height: 2;
 font-family: "Andale Mono", AndaleMono, monospace; 
 font-size: 15px;
 Color: white;
-Text-align: justified;
+font-weight: bol;
+letter-spacing: 5px;
+line-height: 2;
 text-indent: 0px;
+Text-align: justified;
 margin-left: 5px;
 Margin-right: 5px;
 margin-top: 30px;
@@ -155,22 +150,23 @@ padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
+Background-color: black; 
+background-size: cover;
+outline-width: 5px;
+outline-style: solid; 
+outline-color: black;
+background-image: url("../images/.jpg");
 }
 
 
 .service {
-background-image: url("../images/.jpeg");
-background-color: black;
-outline-width: 5px;
-outline-style: solid; 
-outline-color: black;
-text-shadow:  beig 2px 0 15px;
+  font-family: "Andale Mono", AndaleMono, monospace; 
+font-size: 15px;
+Color: white;
 font-weight: bol;
 letter-spacing: 5px;
 line-height: 2;
-font-family: "Andale Mono", AndaleMono, monospace; 
-font-size: 15px;
-Color: white;
+text-shadow:  beig 2px 0 15px;
 Text-align: left;
 text-indent: 0px;
 margin-left: 5px;
@@ -180,17 +176,22 @@ padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
+background-color: black;
+outline-width: 5px;
+outline-style: solid; 
+outline-color: black;
+background-image: url("../images/.jpeg");
 }
 
 .srv-list {
+Font-family: "Andale Mono", AndaleMono, monospace;
+font-weight: bol;
 list-style-type: ;
 color: black;
 text-decoration: none;
 display: block;
 text-align: left;
-Font-family: "Andale Mono", AndaleMono, monospace;
 text-transform: uppercase;
-font-weight: bol;
 margin-left: 20px;
 margin-left: 5px;
 Margin-right: 5px;
@@ -207,11 +208,11 @@ padding-left: 50px;
 
 
 .ty {
- font-weight: bold;
 font-family: "Andale Mono", AndaleMono, monospace; 
 Color: white;
-Text-align: center;
 font-size:15px;
+font-weight: bold;
+Text-align: center;
 margin-top: 150px;
 Margin-right: 50px;
 margin-left: 50px;
@@ -222,15 +223,14 @@ padding-left: 50px;
 }
 
 .tyab {
- font-weight: bold;
 font-family: "Andale Mono", AndaleMono, monospace; 
 Color: white;
-Text-align: center;
 font-size: 15px;
+font-weight: bold;
+Text-align: center;
 margin-top: 30px;
 Margin-right: 50px;
 margin-left: 50px;
-font-size: 1.4em;
 padding-top: 30px;
 padding-right: 50px;
 padding-bottom: 50px;
