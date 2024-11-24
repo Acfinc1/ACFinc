@@ -1,7 +1,7 @@
 body {background-color: rgb(249,255,253);}
 
 body {
-background-image: url("../images/a.jpg");
+background-image: url("../images/az.jpg");
 filter: brightness(100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -27,8 +27,8 @@ padding: 30px;
 
 .index {
   font-family: "Andale Mono", AndaleMono, monospace; 
-  Color: white;
-  font-size: 15px;
+  Color: black;
+  font-size: 19px;
   font-weight: bol;
   letter-spacing: 5px;
   line-height: 2;
@@ -42,11 +42,11 @@ padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
-Background-color: black; 
+Background-color: rgb(249,255,253); 
 background-size: cover;
 outline-width: 5px;
 outline-style: solid; 
-outline-color: black;
+outline-color: rgb(249,255,253);
 background-image: url("../images/.jpeg");
 }
 
@@ -59,14 +59,15 @@ letter-spacing: 5px;
 line-height: 2;
 Text-align: justified;
 text-shadow:  beig 2px 0 15px;
-margin-left: 5px;
-Margin-right: 5px;
+margin-left: 150px;
+Margin-right: 150px;
 margin-top: 50px;
+margin-bottom: 0px;
 padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
-Background-color: black; 
+Background-color: rgb(2, 2, 2); 
 background-size: cover;
 outline-width: 5px;
 outline-style: solid; 
@@ -137,24 +138,24 @@ padding-left: 0px;
 .asif {
 font-family: "Andale Mono", AndaleMono, monospace; 
 font-size: 15px;
-Color: white;
+Color: black;
 font-weight: bol;
 letter-spacing: 5px;
 line-height: 2;
 text-indent: 0px;
 Text-align: justified;
-margin-left: 5px;
-Margin-right: 5px;
-margin-top: 30px;
+margin-left: 150px;
+Margin-right: 150px;
+margin-top: 0px;
 padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
-Background-color: black; 
+Background-color: rgb(249,255,253); 
 background-size: cover;
 outline-width: 5px;
 outline-style: solid; 
-outline-color: black;
+outline-color: white;
 background-image: url("../images/.jpg");
 }
 
@@ -162,24 +163,24 @@ background-image: url("../images/.jpg");
 .service {
   font-family: "Andale Mono", AndaleMono, monospace; 
 font-size: 15px;
-Color: white;
+Color: black;
 font-weight: bol;
 letter-spacing: 5px;
 line-height: 2;
 text-shadow:  beig 2px 0 15px;
 Text-align: left;
 text-indent: 0px;
-margin-left: 5px;
-Margin-right: 5px;
-margin-top: 50px;
+margin-left: 150px;
+Margin-right: 150px;
+margin-top: 90px;
 padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
-background-color: black;
+background-color: rgb(249,255,253);
 outline-width: 5px;
 outline-style: solid; 
-outline-color: black;
+outline-color: white;
 background-image: url("../images/.jpeg");
 }
 
