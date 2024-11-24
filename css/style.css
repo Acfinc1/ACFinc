@@ -1,7 +1,7 @@
 body {background-color: rgb(249,255,253);}
 
 body {
-background-image: url("../images/w.jpeg");
+background-image: url("../imagesa.jpg");
 filter: brightness(100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -73,7 +73,8 @@ padding-left: 50px;
 }
 
 .career {
-background-image: url("../images/w.jpeg");
+background-image: url("../images/.jpg");
+Background-color: black; 
 background-size: cover;
 outline-width: 5px;
 outline-style: solid; 
@@ -134,7 +135,7 @@ padding-left: 0px;
 
 .asif {
 Background-color: black; 
-background-image: url("../images/.jpeg");
+background-image: url("../images/.jpg");
 background-size: cover;
 outline-width: 5px;
 outline-style: solid; 
@@ -158,8 +159,8 @@ padding-left: 50px;
 
 
 .service {
-background-image: url("../images/w.jpeg");
-background-color: white;
+background-image: url("../images/.jpeg");
+background-color: black;
 outline-width: 5px;
 outline-style: solid; 
 outline-color: white;
