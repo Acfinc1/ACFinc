@@ -76,7 +76,7 @@ outline-color: black;
 
 .career {
 font-family: "Andale Mono", AndaleMono, monospace; 
-Color: white;
+Color: black;
 font-size: 15px;
 font-weight: bol;
 letter-spacing: 5px;
@@ -90,11 +90,11 @@ padding-top: 50px;
 padding-right: 50px;
 padding-bottom: 50px;
 padding-left: 50px;
-Background-color: black; 
+Background-color: rgb(249,255,253); 
 background-size: cover;
 outline-width: 5px;
 outline-style: solid; 
-outline-color: black;
+outline-color: rgb(249,255,253);
 background-image: url("../images/.jpg");
 }
 
