@@ -8,11 +8,6 @@ background-attachment: fixed;
 background-size: cover;
 color: #FFFFFF;
 }
- @media (max-width: 768px) {
-   .container {
-     width: 100%;
-     padding: 10px;
-   }}
 
 header {
 Background-color: black; 
