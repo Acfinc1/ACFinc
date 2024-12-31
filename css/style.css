@@ -1,7 +1,7 @@
 body {background-color: rgb(255,255,255);}
 
 body {
-background-image: url("../images/.jpeg");
+background-image: url("../images/b.jpg");
 filter: brightness(100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -10,9 +10,9 @@ color: #FFFFFF;
 }
 
 header {
-Background-color: black; 
+Background-color: rgb(245,245,203); 
 Font-family: "Andale Mono", AndaleMono, monospace; 
-color: white;
+color: black;
 Text-align: center;
 text-decoration-color: white;
 text-transform: uppercase;
@@ -269,7 +269,7 @@ padding-left: 50px;
   margin-left: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: black;
+  background-color: RGB(125,205,203);
   Font-family: "Andale Mono", AndaleMono, monospace; 
   text-transform: uppercase;
   font-weight: bold;
