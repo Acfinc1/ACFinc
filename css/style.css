@@ -93,7 +93,7 @@ li a, .dropbtn {
 /* Common conclusion */ 
 .ty {
   font-family: "Andale Mono", AndaleMono, monospace; 
-  Color: rgb(0, 125, 205, 203);
+  Color: orange;
   font-size:19px;
   font-weight: bold;
   Text-align: center;
