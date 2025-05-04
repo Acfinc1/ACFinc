@@ -278,11 +278,14 @@ li a, .dropbtn {
         padding-right: 90px;
         padding-left: 90px;
         padding-bottom: 50px;
-        background-color: rgb(249,255,253);
         outline-width: 5px;
         outline-style: solid; 
         outline-color: white;
+        background-color: rgb(249,255,253);
         background-image: url("../images/.jpeg");
+        background-blend-mode:screen;
+        background-repeat: no-repeat;
+        background-size: cover;
         }
         
         .srv-list {
@@ -323,11 +326,14 @@ li a, .dropbtn {
         padding-right: 50px;
         padding-bottom: 50px;
         padding-left: 50px;
-        Background-color: rgb(2, 2, 2); 
-        background-size: cover;
         outline-width: 5px;
         outline-style: solid; 
-        outline-color: black;
+        outline-color: rgba(185, 232, 185, 0.738);
+        background-image: url("images/cbeach.jpg")
+        background-blend-mode:screen;
+        background-color:rgba(185, 232, 185, 0.738);
+        background-repeat: no-repeat;
+        background-size: cover;
         }
         
         .ceo {
@@ -347,11 +353,14 @@ li a, .dropbtn {
         padding-right: 50px;
         padding-bottom: 50px;
         padding-left: 50px;
-        Background-color: rgb(249,255,253); 
-        background-size: cover;
         outline-width: 5px;
         outline-style: solid; 
-        outline-color: white;
+        outline-color: rgba(185, 232, 185, 0.738);
+        background-image: url("images/cbeach.jpg")
+        background-blend-mode:screen;
+        background-color:rgba(185, 232, 185, 0.738);
+        background-repeat: no-repeat;
+        background-size: cover;
         }
 
        /* Career page style */ 
@@ -371,12 +380,14 @@ li a, .dropbtn {
         padding-right: 50px;
         padding-bottom: 50px;
         padding-left: 50px;
-        Background-color: rgb(249,255,253); 
-        background-size: cover;
         outline-width: 5px;
         outline-style: solid; 
-        outline-color: rgb(249,255,253);
-        background-image: url("../images/.jpg");
+        outline-color: rgba(244, 247, 244, 0.617);
+        Background-color: rgba(244, 247, 244, 0.617);
+        background-image: url("images/each.jpg")
+        background-blend-mode:screen;
+        background-repeat: no-repeat;
+        background-size: cover;
         }
 
        /* Contact page style */ 
