@@ -94,6 +94,7 @@ li a, .dropbtn {
 .ty {
   font-family: "Andale Mono", AndaleMono, monospace; 
   Color: green;
+  text-shadow:  grey 1px 0 15px;
   font-size:19px;
   font-weight: bold;
   Text-align: center;
