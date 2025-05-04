@@ -1,15 +1,14 @@
 
 /* Main body style */ 
-body {background-color: rgb(255,255,255);}
+body {background-color: rgb(165, 205, 165);}
 
 body {
-background-image: url("../images/b.jpg");
+background-image: url("../images/city.jpg")
 filter: brightness(100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-color: #FFFFFF;
-background-blend-mode:;
+background-blend-mode: screen;
 }
 
 /* Company name and main page title */ 
