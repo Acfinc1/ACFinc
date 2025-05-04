@@ -154,9 +154,11 @@ li a, .dropbtn {
     padding-bottom: 25px;
     outline-width: 5px;
     outline-style: solid; 
-    outline-color: white;
-    background-color: rgb(249,255,253);
+    outline-color: rgba(244, 247, 244, 0.905);
+    background-color: rgba(244, 247, 244, 0.905);
     background-image: url("../images/.jpeg");
+    background-size: cover;
+    background-blend-mode: screen;
     }
     
     .investment-list {
