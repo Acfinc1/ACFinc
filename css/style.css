@@ -126,12 +126,13 @@ li a, .dropbtn {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-  Background-color: rgb(249,255,253); 
-  background-size: cover;
   outline-width: 5px;
   outline-style: solid; 
-  outline-color: rgb(249,255,253);
+  outline-color: rgba(244, 247, 244, 0.905);
+  Background-color: rgba(244, 247, 244, 0.905);
   background-image: url("../images/.jpeg");
+  background-size: cover;
+  background-blend-mode: screen;
   }
 
   /* Investment page style */ 
