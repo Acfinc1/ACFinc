@@ -146,20 +146,21 @@ li a, .dropbtn {
     text-shadow:  beig 2px 0 15px;
     Text-align: left;
     text-indent: 0px;
-    margin-right:100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-right:350px;
+    margin-left: 350px;
+    margin-top: 90px;
     padding-top: 25px;
     padding-right: 90px;
     padding-left: 90px;
     padding-bottom: 25px;
     outline-width: 5px;
     outline-style: solid; 
-    outline-color: rgba(244, 247, 244, 0.905);
-    background-color: rgba(244, 247, 244, 0.905);
+    outline-color: white;
+    background-color: rgba(229, 232, 229, 0.905);
     background-image: url("../images/.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: screen;
+    background-blend-mode:screen;
     }
     
     .investment-list {
@@ -207,7 +208,7 @@ li a, .dropbtn {
 
       /* Article page style */ 
       .article {
-        font-family: "Andale Mono", AndaleMono, monospace; 
+      font-family: "Andale Mono", AndaleMono, monospace; 
       font-size: 15px;
       Color: black;
       font-weight: bol;
@@ -216,13 +217,13 @@ li a, .dropbtn {
       text-shadow:  beig 2px 0 15px;
       Text-align: left;
       text-indent: 0px;
-      margin-left: 200px;
-      Margin-right: 200px;
+      margin-right: 350px;
+      margin-left: 350px;
       margin-top: 90px;
-      padding-top: 50px;
-      padding-right: 50px;
-      padding-bottom: 50px;
-      padding-left: 50px;
+      padding-top: 25px;
+      padding-right: 90px;
+      padding-left: 90px;
+      padding-bottom: 25px;
       outline-width: 5px;
       outline-style: solid; 
       outline-color: white;
@@ -272,19 +273,20 @@ li a, .dropbtn {
         text-shadow:  beig 2px 0 15px;
         Text-align: left;
         text-indent: 0px;
-        margin-right:100px;
-        margin-left: 100px;
+        margin-right: 350px;
+        margin-left: 350px;
         margin-top: 90px;
-        padding-top: 50px;
+        padding-top: 25px;
         padding-right: 90px;
         padding-left: 90px;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
         outline-width: 5px;
         outline-style: solid; 
         outline-color: white;
-        background-color: rgb(249,255,253);
-        background-image: url("../images/.jpeg");
+        outline-color: rgba(185, 232, 185, 0.333);
+        background-image: url("images/cbeach.jpg")
         background-blend-mode:screen;
+        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -319,14 +321,13 @@ li a, .dropbtn {
         line-height: 2;
         Text-align: justified;
         text-shadow:  beig 2px 0 15px;
-        margin-left: 100px;
-        Margin-right: 100px;
-        margin-top: 50px;
-        margin-bottom: 5px;
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
+        margin-right: 350px;
+        margin-left: 350px;
+        margin-top: 90px;
+        padding-top: 25px;
+        padding-right: 90px;
+        padding-left: 90px;
+        padding-bottom: 25px;
         outline-width: 5px;
         outline-style: solid; 
         outline-color: rgba(185, 232, 185, 0.738);
@@ -346,14 +347,13 @@ li a, .dropbtn {
         line-height: 2;
         text-indent: 0px;
         Text-align: justified;
-        margin-left: 100px;
-        Margin-right: 100px;
-        margin-top: 25px;
-        margin-bottom: 5px;
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
+        margin-right: 350px;
+        margin-left: 350px;
+        margin-top: 90px;
+        padding-top: 25px;
+        padding-right: 90px;
+        padding-left: 90px;
+        padding-bottom: 25px;
         outline-width: 5px;
         outline-style: solid; 
         outline-color: rgba(185, 232, 185, 0.738);
@@ -374,19 +374,19 @@ li a, .dropbtn {
         line-height: 2;
         Text-align: center;
         text-shadow:  grey 1px 0 15px;
-        margin-left: 115px;
-        Margin-right: 115px;
-        margin-top: 50px;
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
+        margin-right: 350px;
+        margin-left: 350px;
+        margin-top: 90px;
+        padding-top: 25px;
+        padding-right: 90px;
+        padding-left: 90px;
+        padding-bottom: 25px;
         outline-width: 5px;
         outline-style: solid; 
-        outline-color: rgba(244, 247, 244, 0.617);
-        Background-color: rgba(244, 247, 244, 0.617);
-        background-image: url("images/each.jpg")
+        outline-color: rgba(185, 232, 185, 0.738);
+        background-image: url("images/cbeach.jpg")
         background-blend-mode:screen;
+        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -401,17 +401,18 @@ li a, .dropbtn {
         line-height: ;
         Text-align: left;
         text-shadow:  grey 1px 0 15px;
-        margin-left: 115px;
-        Margin-right: 115px;
-        margin-top: 50px;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        outline-color: rgba(244, 247, 244, 0.905);
-        Background-color: rgba(244, 247, 244, 0.267);
+        margin-right: 350px;
+        margin-left: 350px;
+        margin-top: 90px;
+        padding-top: 25px;
+        padding-right: 90px;
+        padding-left: 90px;
+        padding-bottom: 25px;
+        outline-width: 5px;
+        outline-color: rgba(185, 232, 185, 0.738);
         background-image: url("images/cbeach.jpg")
         background-blend-mode:screen;
+        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
