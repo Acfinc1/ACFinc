@@ -90,6 +90,41 @@ li a, .dropbtn {
   display: block;
 }
 
+/* Change page */
+.fixed-btnr {
+  position: fixed;
+  bottom: 35px;   /* distance from bottom */
+  right: 50px;    /* distance from right */
+
+
+  padding: 12px 20px;
+  background-color: RGB(125,205,203);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 1000;  /* stays above other content */
+}
+
+
+.fixed-btnl {
+  position: fixed;
+  bottom: 35px;   /* distance from bottom */
+  Left: 50px;    /* distance from right */
+
+
+  padding: 12px 20px;
+  background-color: RGB(125,205,203);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 1000;  /* stays above other content */
+}
+
+
+
+
 /* Common conclusion */ 
 .ty {
   font-family: "Andale Mono", AndaleMono, monospace; 
