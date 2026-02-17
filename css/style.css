@@ -300,7 +300,7 @@ li a, .dropbtn {
         }
 
        /* About us page style */ 
-       .aboutus {
+        .aboutus {
         font-family: "Andale Mono", AndaleMono, monospace; 
         color: black;
         font-size: 15px;
@@ -322,8 +322,8 @@ li a, .dropbtn {
         
         .ceo {
         font-family: "Andale Mono", AndaleMono, monospace; 
-        font-size: 15px;
         color: black;
+        font-size: 15px;
         font-weight: bol;
         letter-spacing: px;
         line-height: 2;
@@ -341,7 +341,7 @@ li a, .dropbtn {
         }
 
        /* Career page style */ 
-       .career {
+        .career {
         font-family: "Andale Mono", AndaleMono, monospace; 
         Color: black;
         font-size: 15px;
@@ -350,11 +350,11 @@ li a, .dropbtn {
         line-height: 2;
         text-align: center;
         text-shadow:  grey 1px 0 15px;
-       margin: 90px auto;
-       max-width: 900px;
-       padding: 25px 90px;
-       outline: 5px solid rgba(185, 232, 185, 0.738);
-       background-color: rgba(185, 232, 185, 0.738);
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+        outline: 5px solid rgba(185, 232, 185, 0.738);
+        background-color: rgba(185, 232, 185, 0.738);
         background-image: none;
         background-blend-mode:screen;
         background-repeat: no-repeat;
@@ -362,20 +362,20 @@ li a, .dropbtn {
         }
 
        /* Contact page style */ 
-       .role {
+        .role {
         font-family: "Andale Mono", AndaleMono, monospace; 
         color: black;
         font-size: 15px;
         font-weight: bol;
-        text-shadow:  grey 1px 0 15px;
         letter-spacing: px;
         line-height: 2;
         text-align: left;
+        text-shadow:  grey 1px 0 15px;
         margin: 90px auto;
         max-width: 900px;
         padding: 25px 90px;
-      outline: 5px solid rgba(185, 232, 185, 0.738);
-       background-color:rgba(185, 232, 185, 0.738);
+        outline: 5px solid rgba(185, 232, 185, 0.738);
+        background-color:rgba(185, 232, 185, 0.738);
         background-image: none;
         background-blend-mode:screen;
         background-repeat: no-repeat;
