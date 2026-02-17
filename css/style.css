@@ -366,7 +366,7 @@ li a, .dropbtn {
         font-family: "Andale Mono", AndaleMono, monospace; 
         color: black;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: bol;
         text-shadow:  grey 1px 0 15px;
         letter-spacing: px;
         line-height: 2;
