@@ -1,9 +1,9 @@
 
 /* Main body style */ 
-body {background-color: rgb(165, 205, 165);}
 
 body {
-background-image: url("../images/city.jpg")
+background-color: rgb(165, 205, 165);
+background-image: none;
 filter: brightness(100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -13,28 +13,25 @@ background-blend-mode: screen;
 
 /* Company name and main page title */ 
 header {
-Background-color: rgb(245,245,203); 
+background-color: rgb(245,245,203); 
 Font-family: "Andale Mono", AndaleMono, monospace; 
 color: black;
-Text-align: center;
+text-align: center;
 text-decoration-color: white;
 text-transform: uppercase;
 font-weight: bold;
 font-size: 1em;
-margin-top: 0px;
-Margin-right: 0px;
-margin-left: 0px;
-margin-bottom: 0px;
+margin: 0;
+padding: 15px;
 border-style: solid;
 border-width: 0px 0px; 
-padding: 15px;
+
 }
 
 /* Navigation bar style, hover and etc.*/ 
 .navbar-menu{
   list-style-type: none;
   margin: 0;
-  margin-left: 0px;
   padding: 0px;
   overflow: hidden;
   background-color: RGB(125,205,203);
@@ -79,7 +76,7 @@ li a, .dropbtn {
   text-decoration: none;
   display: block;
   text-align: left;
-  Font-family: "Andale Mono", AndaleMono, monospace;
+  font-family: "Andale Mono", AndaleMono, monospace;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -95,8 +92,6 @@ li a, .dropbtn {
   position: fixed;
   bottom: 35px;   /* distance from bottom */
   right: 50px;    /* distance from right */
-
-
   padding: 12px 20px;
   background-color: RGB(125,205,203);
   color: white;
@@ -110,9 +105,7 @@ li a, .dropbtn {
 .fixed-btnl {
   position: fixed;
   bottom: 35px;   /* distance from bottom */
-  Left: 50px;    /* distance from right */
-
-
+  left: 50px;    /* distance from right */
   padding: 12px 20px;
   background-color: RGB(125,205,203);
   color: white;
@@ -123,8 +116,6 @@ li a, .dropbtn {
 }
 
 
-
-
 /* Common conclusion */ 
 .ty {
   font-family: "Andale Mono", AndaleMono, monospace; 
@@ -132,40 +123,28 @@ li a, .dropbtn {
   text-shadow:  grey 1px 0 15px;
   font-size:19px;
   font-weight: bold;
-  Text-align: center;
-  margin-top: 50px;
-  Margin-right: 50px;
-  margin-left: 50px;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 50px;
   }
 
   /* Index page style */ 
   .index 
   {
   font-family: "Andale Mono", AndaleMono, monospace; 
-  Color: black;
+  color: black;
   font-size: 19px;
   font-weight: bol;
   letter-spacing: px;
   line-height: 2;
   text-shadow:  grey 1px 0 15px;
-  Text-align: center;
-  margin-top: 130px;
-  Margin-right: 150px;
-  margin-left: 150px;
-  margin-bottom: px;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  outline-width: 5px;
-  outline-style: solid; 
-  outline-color: rgba(244, 247, 244, 0.905);
-  Background-color: rgba(244, 247, 244, 0.905);
-  background-image: url("../images/.jpeg");
+  text-align: center;
+  margin: 130px auto 0 auto;
+  max-width: 900px;
+  padding: 50px;
+  outline: 5px solid rgba(185, 232, 185, 0.738);
+  background-color:rgba(185, 232, 185, 0.738);
+  background-image: none;
   background-size: cover;
   background-blend-mode: screen;
   }
@@ -174,25 +153,19 @@ li a, .dropbtn {
   .investment {
     font-family: "Andale Mono", AndaleMono, monospace; 
     font-size: 15px;
-    Color: black;
+    color: black;
     font-weight: bol;
     letter-spacing: px;
     line-height: 2;
     text-shadow:  beig 2px 0 15px;
-    Text-align: left;
+    text-align: left;
     text-indent: 0px;
-    margin-right:345px;
-    margin-left: 345px;
-    margin-top: 90px;
-    padding-top: 35px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 35px;
-    outline-width: 5px;
-    outline-style: solid; 
-    outline-color: white;
-    background-color: rgba(229, 232, 229, 0.905);
-    background-image: url("../images/.jpeg");
+    margin: 90px auto;
+    max-width: 900px;
+    padding: 35px 50px;
+    outline: 5px solid rgba(185, 232, 185, 0.738);
+    background-color:rgba(185, 232, 185, 0.738);
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:screen;
@@ -208,20 +181,16 @@ li a, .dropbtn {
     display: block;
     text-align: left;
     text-transform: ;
-    margin-right 40px;
-    margin-left: 40px;
-    margin-top: 25px;
-    padding-left: 50px;
-    
-    
+   margin: 25px auto;
+   padding-left: 50px;
     }
     
     .investment-list li {
-      margin: 5px 0px;
+      margin: 5px 0;
     }
     
     .image {
-      Font-family: "Andale Mono", AndaleMono, monospace;
+      font-family: "Andale Mono", AndaleMono, monospace;
       font-weight: bold;
       list-style-type: ;
       color: black;
@@ -245,25 +214,19 @@ li a, .dropbtn {
       .article {
       font-family: "Andale Mono", AndaleMono, monospace; 
       font-size: 15px;
-      Color: black;
+      color: black;
       font-weight: bol;
       letter-spacing: px;
       line-height: 2;
       text-shadow:  beig 2px 0 15px;
-      Text-align: left;
+      text-align: left;
       text-indent: 0px;
-      margin-right: 285px;
-      margin-left: 285px;
-      margin-top: 90px;
-      padding-top: 35px;
-      padding-right: 50px;
-      padding-left: 50px;
-      padding-bottom: 35px;
-      outline-width: 5px;
-      outline-style: solid; 
-      outline-color: white;
+      margin: 90px auto;
+      max-width: 900px;
+      padding: 35px 50px;
+      outline: 5px solid white;
       background-color: rgba(229, 232, 229, 0.905);
-      background-image: url("../images/.jpeg");
+      background-image: none;
       background-repeat: no-repeat;
       background-size: cover;
       background-blend-mode:screen;
@@ -300,26 +263,18 @@ li a, .dropbtn {
       /* Individual and Small Business page style */ 
       .service {
         font-family: "Andale Mono", AndaleMono, monospace; 
+        color: black;
         font-size: 15px;
-        Color: black;
         font-weight: bol;
         letter-spacing: px;
         line-height: 2;
         text-shadow:  beig 2px 0 15px;
-        Text-align: left;
+        text-align: left;
         text-indent: 0px;
-        margin-right: 350px;
-        margin-left: 350px;
-        margin-top: 90px;
-        padding-top: 25px;
-        padding-right: 90px;
-        padding-left: 90px;
-        padding-bottom: 25px;
-        outline-width: 5px;
-        outline-style: solid; 
-        outline-color: white;
-        outline-color: rgba(185, 232, 185, 0.333);
-        background-image: url("images/cbeach.jpg")
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+        background-image: none;
         background-blend-mode:screen;
         background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
@@ -336,9 +291,7 @@ li a, .dropbtn {
         display: block;
         text-align: left;
         text-transform: ;
-        margin-right 40px;
-        margin-left: 40px;
-        margin-top: 30px;
+        margin: 30px auto;
         padding-left: 50px;
         }
         
@@ -349,26 +302,20 @@ li a, .dropbtn {
        /* About us page style */ 
        .aboutus {
         font-family: "Andale Mono", AndaleMono, monospace; 
-        Color: black;
+        color: black;
         font-size: 15px;
         font-weight: bol;
         letter-spacing: px;
         line-height: 2;
-        Text-align: justified;
+        text-align: justified;
         text-shadow:  beig 2px 0 15px;
-        margin-right: 350px;
-        margin-left: 350px;
-        margin-top: 90px;
-        padding-top: 25px;
-        padding-right: 90px;
-        padding-left: 90px;
-        padding-bottom: 25px;
-        outline-width: 5px;
-        outline-style: solid; 
-        outline-color: rgba(185, 232, 185, 0.738);
-        background-image: url("images/cbeach.jpg")
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+        outline: 5px solid rgba(185, 232, 185, 0.738);
+        background-color: rgba(185, 232, 185, 0.738);
+        background-image: none;
         background-blend-mode:screen;
-        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -376,25 +323,19 @@ li a, .dropbtn {
         .ceo {
         font-family: "Andale Mono", AndaleMono, monospace; 
         font-size: 15px;
-        Color: black;
+        color: black;
         font-weight: bol;
         letter-spacing: px;
         line-height: 2;
         text-indent: 0px;
-        Text-align: justified;
-        margin-right: 350px;
-        margin-left: 350px;
-        margin-top: 90px;
-        padding-top: 25px;
-        padding-right: 90px;
-        padding-left: 90px;
-        padding-bottom: 25px;
-        outline-width: 5px;
-        outline-style: solid; 
-        outline-color: rgba(185, 232, 185, 0.738);
-        background-image: url("images/cbeach.jpg")
+        text-align: justified;
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+        outline: 5px solid rgba(185, 232, 185, 0.738);
+        background-color: rgba(185, 232, 185, 0.738);
+        background-image: none;
         background-blend-mode:screen;
-        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -407,21 +348,15 @@ li a, .dropbtn {
         font-weight: bol;
         letter-spacing: px;
         line-height: 2;
-        Text-align: center;
+        text-align: center;
         text-shadow:  grey 1px 0 15px;
-        margin-right: 350px;
-        margin-left: 350px;
-        margin-top: 90px;
-        padding-top: 25px;
-        padding-right: 90px;
-        padding-left: 90px;
-        padding-bottom: 25px;
-        outline-width: 5px;
-        outline-style: solid; 
-        outline-color: rgba(185, 232, 185, 0.738);
-        background-image: url("images/cbeach.jpg")
+       margin: 90px auto;
+       max-width: 900px;
+       padding: 25px 90px;
+       outline: 5px solid rgba(185, 232, 185, 0.738);
+       background-color: rgba(185, 232, 185, 0.738);
+        background-image: none;
         background-blend-mode:screen;
-        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -429,25 +364,27 @@ li a, .dropbtn {
        /* Contact page style */ 
        .role {
         font-family: "Andale Mono", AndaleMono, monospace; 
-        Color: black;
+        color: black;
         font-size: 15px;
         font-weight: bold;
-        letter-spacing: px;
-        line-height: ;
-        Text-align: left;
         text-shadow:  grey 1px 0 15px;
-        margin-right: 350px;
-        margin-left: 350px;
-        margin-top: 90px;
-        padding-top: 25px;
-        padding-right: 90px;
-        padding-left: 90px;
-        padding-bottom: 25px;
-        outline-width: 5px;
-        outline-color: rgba(185, 232, 185, 0.738);
-        background-image: url("images/cbeach.jpg")
+        letter-spacing: px;
+        line-height: 2;
+        text-align: left;
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+      outline: 5px solid rgba(185, 232, 185, 0.738);
+       background-color:rgba(185, 232, 185, 0.738);
+        background-image: none;
         background-blend-mode:screen;
-        background-color:rgba(185, 232, 185, 0.738);
         background-repeat: no-repeat;
         background-size: cover;
         }
+
+@media screen and (max-width: 768px) {
+  .role {
+    padding: 20px 15px;
+  }
+}
+
