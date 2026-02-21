@@ -1,21 +1,28 @@
 
 /* Main body style */ 
 
-body {
+body
+{
 background-color: rgb(165, 205, 165);
-background-image: none;
 filter: brightness(100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 background-blend-mode: screen;
-font-family: "Andale Mono", AndaleMono, monospace;
+font-family: 'source sans 3', sans-serif;
+line-height: 1.5;
+letter-spacing: 0.03em;
+text-align: justify;
+color: black;
+font-size: 19px;
 }
 
 /* Company name and main page title */ 
-header {
+header 
+{
 background-color: rgb(245,245,203); 
-Font-family: "Andale Mono", AndaleMono, monospace; 
+font-family: 'Source Sans 3', sans-serif;
+letter-spacing: 0.03em;
 color: black;
 text-align: center;
 text-decoration-color: white;
@@ -26,7 +33,172 @@ margin: 0;
 padding: 15px;
 border-style: solid;
 border-width: 0px 0px; 
+}
+/* Common conclusion */ 
+.ty {
+  color: green;
+  font-size:19px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px auto;
+  padding: 50px;
+  }
 
+  /* Index page style */ 
+  .index 
+  {
+  margin: 130px auto 0 auto;
+  max-width: 900px;
+  padding: 50px;
+  outline: 5px solid rgba(185, 232, 185, 0.738);
+  background-color:rgba(185, 232, 185, 0.738);
+  background-image: none;
+  background-size: cover;
+  background-blend-mode: screen;
+  }
+
+  /* Investment page style */ 
+  .investment {
+    margin: 90px auto;
+    max-width: 900px;
+    padding: 35px 50px;
+    outline: 5px solid rgba(185, 232, 185, 0.738);
+    background-color:rgba(185, 232, 185, 0.738);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:screen;
+    }
+    
+    .investment-list {
+    display: block;
+   margin: 25px auto;
+   padding-left: 50px;
+    }
+    
+    .investment-list li {
+      margin: 5px 0;
+    }
+    
+    .image {
+      font-weight: bold;
+      color: black;
+      text-decoration: underline;
+      display: block;
+      }
+      
+      #umrahimg {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+      }
+      
+      #umrahimg:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+
+      /* Article page style */ 
+      .article {
+      margin: 90px auto;
+      max-width: 900px;
+      padding: 35px 50px;
+      outline: 5px solid white;
+      background-color: rgba(229, 232, 229, 0.700);
+      background-image: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode:screen;
+      }
+      
+      .table body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+          }
+      
+          .table body {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          }
+      
+      th, td {
+            border: 1px solid #dddddd;
+            padding: 12px;
+            text-align: left;
+          }
+      
+      th {
+            background-color: #4CAF50;
+            color: white;
+          }
+      
+      tr:nth-child(even) {
+            background-color: #f2f2f2;
+          }
+
+      /* Individual and Small Business page style */ 
+      .service {
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+        background-image: none;
+        background-blend-mode:screen;
+        background-color:rgba(185, 232, 185, 0.738);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        
+
+        .srv-list {
+        text-decoration: !important
+        display: block;
+        margin: 30px auto;
+        padding-left: 50px;
+        }
+        
+        .srv-list li {
+          margin: 20px 10px;
+        }
+
+       /* About us page style */ 
+        .org {
+        margin: 90px auto;
+        max-width: 900px;
+        padding: 25px 90px;
+        outline: 5px solid rgba(185, 232, 185, 0.738);
+        background-color: rgba(185, 232, 185, 0.738);
+        background-image: none;
+        background-blend-mode:screen;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        
+        .org h3 {
+  margin-top: 0;
+}
+
+.org h4 {
+  margin-top: 35px;
+  border-bottom: 2px solid #dcdcdc;
+  padding-bottom: 5px;
+}
+
+.org ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.org li {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
 }
 
 /* Navigation bar style, hover and etc.*/ 
@@ -114,236 +286,6 @@ li a, .dropbtn {
   font-weight: bold;
   z-index: 1000;  /* stays above other content */
 }
-
-
-/* Common conclusion */ 
-.ty {
-  font-family: "Andale Mono", AndaleMono, monospace; 
-  Color: green;
-  text-shadow:  grey 1px 0 15px;
-  font-size:19px;
-  font-weight: bold;
-  text-align: center;
-  margin: 50px auto;
-  padding: 50px;
-  }
-
-  /* Index page style */ 
-  .index 
-  {
-  font-family: "Andale Mono", AndaleMono, monospace; 
-  color: black;
-  font-size: 19px;
-  font-weight: bol;
-  letter-spacing: px;
-  line-height: 2;
-  text-shadow:  grey 1px 0 15px;
-  text-align: center;
-  margin: 130px auto 0 auto;
-  max-width: 900px;
-  padding: 50px;
-  outline: 5px solid rgba(185, 232, 185, 0.738);
-  background-color:rgba(185, 232, 185, 0.738);
-  background-image: none;
-  background-size: cover;
-  background-blend-mode: screen;
-  }
-
-  /* Investment page style */ 
-  .investment {
-    font-family: "Andale Mono", AndaleMono, monospace; 
-    font-size: 15px;
-    color: black;
-    font-weight: bol;
-    letter-spacing: px;
-    line-height: 2;
-    text-shadow:  beig 2px 0 15px;
-    text-align: left;
-    text-indent: 0px;
-    margin: 90px auto;
-    max-width: 900px;
-    padding: 35px 50px;
-    outline: 5px solid rgba(185, 232, 185, 0.738);
-    background-color:rgba(185, 232, 185, 0.738);
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode:screen;
-    }
-    
-    .investment-list {
-    font-family: "Andale Mono", AndaleMono, monospace;
-    font-size: 15px;
-    font-weight: bol;
-    list-style-type: ;
-    color: black;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    text-transform: ;
-   margin: 25px auto;
-   padding-left: 50px;
-    }
-    
-    .investment-list li {
-      margin: 5px 0;
-    }
-    
-    .image {
-      font-family: "Andale Mono", AndaleMono, monospace;
-      font-weight: bold;
-      list-style-type: ;
-      color: black;
-      text-decoration: underline;
-      display: block;
-      text-align: left;
-      }
-      
-      #umrahimg {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 150px;
-      }
-      
-      #umrahimg:hover {
-        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-      }
-
-      /* Article page style */ 
-      .article {
-      font-family: "Andale Mono", AndaleMono, monospace; 
-      font-size: 15px;
-      color: black;
-      font-weight: bol;
-      letter-spacing: px;
-      line-height: 2;
-      text-shadow:  beig 2px 0 15px;
-      text-align: left;
-      text-indent: 0px;
-      margin: 90px auto;
-      max-width: 900px;
-      padding: 35px 50px;
-      outline: 5px solid white;
-      background-color: rgba(229, 232, 229, 0.905);
-      background-image: none;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-blend-mode:screen;
-      }
-      
-      .table body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            padding: 20px;
-          }
-      
-          .table body {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-          }
-      
-      th, td {
-            border: 1px solid #dddddd;
-            padding: 12px;
-            text-align: left;
-          }
-      
-      th {
-            background-color: #4CAF50;
-            color: white;
-          }
-      
-      tr:nth-child(even) {
-            background-color: #f2f2f2;
-          }
-
-      /* Individual and Small Business page style */ 
-      .service {
-        font-family: "Andale Mono", AndaleMono, monospace; 
-        color: black;
-        font-size: 15px;
-        font-weight: bol;
-        letter-spacing: px;
-        line-height: 2;
-        text-shadow:  beig 2px 0 15px;
-        text-align: left;
-        text-indent: 0px;
-        margin: 90px auto;
-        max-width: 900px;
-        padding: 25px 90px;
-        background-image: none;
-        background-blend-mode:screen;
-        background-color:rgba(185, 232, 185, 0.738);
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-        
-        .srv-list {
-        font-family: "Andale Mono", AndaleMono, monospace;
-        font-size: 15px;
-        font-weight: bol;
-        list-style-type: ;
-        color: black;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-        text-transform: ;
-        margin: 30px auto;
-        padding-left: 50px;
-        }
-        
-        .srv-list li {
-          margin: 20px 10px;
-        }
-
-       /* About us page style */ 
-        .org {
-        color: black;
-        font-size: 15px;
-        font-weight: bol;
-        letter-spacing: px;
-        line-height: 2;
-        text-align: justified;
-        text-shadow:  beig 2px 0 15px;
-        margin: 90px auto;
-        max-width: 900px;
-        padding: 25px 90px;
-        outline: 5px solid rgba(185, 232, 185, 0.738);
-        background-color: rgba(185, 232, 185, 0.738);
-        background-image: none;
-        background-blend-mode:screen;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-        
-        .org h3 {
-  margin-top: 0;
-}
-
-.org h4 {
-  margin-top: 35px;
-  border-bottom: 2px solid #dcdcdc;
-  padding-bottom: 5px;
-}
-
-.org ul {
-  margin-top: 20px;
-  padding-left: 20px;
-}
-
-.org li {
-  margin-bottom: 15px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-}
-
 
 @media screen and (max-width: 768px) {
   .role {
