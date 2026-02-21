@@ -9,6 +9,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 background-blend-mode: screen;
+font-family: "Andale Mono", AndaleMono, monospace;
 }
 
 /* Company name and main page title */ 
@@ -32,10 +33,9 @@ border-width: 0px 0px;
 .navbar-menu{
   list-style-type: none;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   overflow: hidden;
   background-color: RGB(125,205,203);
-  Font-family: "Andale Mono", AndaleMono, monospace; 
   text-transform: uppercase;
   font-weight: bold;
   font-size: 15px;
@@ -301,7 +301,6 @@ li a, .dropbtn {
 
        /* About us page style */ 
         .org {
-        font-family: "Andale Mono", AndaleMono, monospace; 
         color: black;
         font-size: 15px;
         font-weight: bol;
@@ -320,10 +319,36 @@ li a, .dropbtn {
         background-size: cover;
         }
         
-        
+        .org h3 {
+  margin-top: 0;
+}
+
+.org h4 {
+  margin-top: 35px;
+  border-bottom: 2px solid #dcdcdc;
+  padding-bottom: 5px;
+}
+
+.org ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.org li {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+
 @media screen and (max-width: 768px) {
   .role {
     padding: 20px 15px;
+    margin: 40px 20px;
   }
 }
 
