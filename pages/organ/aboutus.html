@@ -9,15 +9,21 @@
   <meta name="description" content="A. Consultation Firm Inc. provides professional business consulting services in Scarborough. We help businesses reduce costs, improve efficiency, and enhance service quality.">
   <meta name="keywords" content="Business Consulting, Accounting, Scarborough, Tax Services, Small Business Consulting">
   <meta name="author" content="A. Consultation Firm Inc.">
-  <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+
+    <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 </head>
 
 <body>
 
   <!--Bismillah-->
   <header><h2>About Us</h2></header>
+  
 
-  <div class="navbar">
+  <nav class="navbar">
     <ul class="navbar-menu">
       <li><a href="../../index.html">HOME</a></li>
       <li class="dropdown">
@@ -45,8 +51,8 @@
       </li>
       <li><a href="../investments.html">INVESTMENTS</a></li>
     </ul>
-  </div>
-
+  </nav>
+<main>
   <!-- Organization Overview -->
   <div class="org">
     <p>
@@ -115,7 +121,16 @@
   </div>
 
   <p class="ty">Thank you.</p>
+</main>
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+</footer>
 
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
