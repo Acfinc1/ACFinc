@@ -2,98 +2,116 @@
 <html lang="en">
 
 <head>
-<title>Investments</title>
+  <title>Investments | A. CF Inc.</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="../css/style.css">
+   <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
 
+  <!-- CSS -->
+   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-<!--Bismillah-->
+<header>
+  <h2>Investments</h2>
+</header>
 
-<header><h2>Investments</h2></header>
-
-<div class="navbar">
+<nav class="navbar">
 <ul class="navbar-menu">
+    <li><a href="../index.html">Home</a></li>
+    <li class="dropdown" aria-label="Organization Menu">
+      <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Organization</a>
+      <div class="dropdown-content" aria-labelledby="dropdown1">
+        <a href="organ/aboutus.html">About Us</a>
+        <a href="organ/career.html">Career</a>
+        <a href="organ/contact.html">Contact</a>
+      </div>
+    </li>
+    <li class="dropdown" aria-label="Services Menu">
+      <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Services</a>
+      <div class="dropdown-content" aria-labelledby="dropdown2">
+        <a href="services/individual.html">Individual</a>
+        <a href="services/sbc.html">Small Business</a>
+      </div>
+    </li>
+    <li class="dropdown" aria-label="Articles Menu">
+      <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Articles</a>
+      <div class="dropdown-content" aria-labelledby="dropdown3">
+        <a href="articles/ec.html">E-commerce</a>
+        <a href="articles/policy.html">Policy Change</a>
+        <a href="articles/taxcredit.html">Personal Tax-credit</a>
+      </div>
+    </li>
+    <li><a href="investments.html">Investments</a></li>
+  </ul>
+</nav>
 
-<li><a href="../index.html">HOME</a></li>
 
-<li class="dropdown">
-<a href="#" class="dropbtn">Organization</a>
-<div class="dropdown-content">
-<a href="organ/aboutus.html">ABOUT US</a>
-<a href="organ/career.html">CAREER</a>
-<a href="organ/contact.html">CONTACT</a>
-</div>
-</li>
+<main>
 
-<li class="dropdown">
-<a href="#" class="dropbtn">Services</a>
-<div class="dropdown-content">
-<a href="services/individual.html">Individual</a>
-<a href="services/sbc.html">Small Business</a>
-</div>
-</li>
 
-<li class="dropdown">
-<a href="#" class="dropbtn">Articles</a>
-<div class="dropdown-content">
-<a href="articles/ec.html">E-commerce</a>
-<a href="articles/policy.html">Policy Change</a>
-<a href="articles/taxcredit.html">Personal Tax-credit</a>
-</div>
-</li>
+<section class="investment">
 
-<li><a href="investments.html">INVESTMENTS</a></li>
+  <h2 style="text-align:center;">Investment Opportunities</h2>
 
-</ul>
-</div>
+  <p>
+    A. CF Inc. is currently seeking committed investors for the following strategic projects:
+  </p>
 
-<div class="investment">
+  <ul class="investment-list">
 
-<h2 style="text-align:center;">Investments</h2>
+    <li>
+      <strong>Umrah Travel Package</strong><br>
+      Packages designed from the perspective of backpack travelers, offering flexible and all-inclusive options tailored to modern demand.
 
-<p>
-A. CF Inc. is looking for investors for the following projects:
-</p>
+      <div class="investment-media">
+        <p class="image">Flyer</p>
+        <a target="_blank" href="../images/flyer.jpg">
+          <img class="umrahimg" src="../images/flyer.jpg" alt="Umrah Package Flyer">
+        </a>
 
-<ul class="investment-list">
+        <p class="image">Profit Analysis</p>
+        <a target="_blank" href="../images/CVP.jpg">
+          <img class="umrahimg" src="../images/CVP.jpg" alt="Umrah Profit Analysis">
+        </a>
+      </div>
+    </li>
 
-<li>
-<strong>Umrah Package:</strong> packages created from the perspective of backpack travellers and their demand for all-inclusive packages.
+    <li>
+      <strong>Islamic Centre with Modern Grocery Store</strong><br>
+      A community-centered development project aimed at increasing accessibility, engagement, and essential services for the local Muslim population.
+    </li>
 
-<p class="image">Flyer</p>
-<a target="_blank" href="../images/flyer.jpg">
-<img id="umrahimg" src="../images/flyer.jpg" alt="Flyer">
-</a>
+    <li>
+      <strong>Fast Food Kaachchi Briyani Store</strong><br>
+      A quick-service restaurant specializing in authentic Dhaka cuisine, designed for high-demand urban markets.
+    </li>
 
-<p class="image">Profit Analysis</p>
-<a target="_blank" href="../images/CVP.jpg">
-<img id="umrahimg" src="../images/CVP.jpg" alt="Profit Analysis">
-</a>
-</li>
+  </ul>
 
-<li>
-<strong>Islamic Centre with a Modern Grocery Store:</strong> an addition for the Muslim community to increase its utility.
-</li>
+  <p>
+    These ventures present strong growth potential. A. CF Inc. welcomes investors who share our vision and commitment to community-driven development.
+    Please contact us directly for detailed financial projections and partnership structures.
+  </p>
 
-<li>
-<strong>Fast Food Kaachchi Briyani Store:</strong> a quick and accessible Dhaka cuisine.
-</li>
-
-</ul>
-
-<p>
-We believe these ventures have great potential and A. CF Inc. is looking for committed investors who believe in our vision. Please take the initiative and give us a call for more detail.
-</p>
-
-</div>
+</section>
 
 <p class="ty">Thank you.</p>
+</main>
+
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
