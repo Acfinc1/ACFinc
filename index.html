@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>
-A. CF INC.
-</title>
+  <title>A. CF INC.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
 
-
-<link rel="stylesheet" href="css/style.css">
-
-
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!--Bismillah-->
-
 <header>
-<h2>A. Consultation Firm Inc.</h2>
+  <h2>A. Consultation Firm Inc.</h2>
 </header>
 
-<div class="navbar">
-<ul class="navbar-menu">
-<li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn">Organization</a>
-<div class="dropdown-content">
-<a href="pages/organ/aboutus.html">ABOUT US</a>
-<a href="pages/organ/career.html">CAREER</a>
-<a href="pages/organ/contact.html">CONTACT</a>
-</div>
-</li>
-<li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn">Services</a>
-<div class="dropdown-content">
-<a href="pages/services/individual.html">Individual</a>
-<a href="pages/services/sbc.html">Small Business</a>
-</div>
-</li>
+<nav>
+  <ul class="navbar-menu">
 
-<li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn">Articles</a>
-<div class="dropdown-content">
-<a href="pages/articles/ec.html">E-commerce</a>
-<a href="pages/articles/policy.html">Policy Change</a>
-<a href="pages/articles/taxcredit.html">Personal Tax-credit</a>
-</div>
-</li>
-  <li><a href="pages/investments.html">INVESTMENTS</a></li>
-</ul>
-</div>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Organization</a>
+      <div class="dropdown-content">
+        <a href="pages/organ/aboutus.html">About Us</a>
+        <a href="pages/organ/career.html">Career</a>
+        <a href="pages/organ/contact.html">Contact</a>
+      </div>
+    </li>
 
-<p class="index">
-ACF Inc. values your questions and committed to improving the standard of living in Scarborough, Ontario.</p>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Services</a>
+      <div class="dropdown-content">
+        <a href="pages/services/individual.html">Individual</a>
+        <a href="pages/services/sbc.html">Small Business</a>
+      </div>
+    </li>
 
-<p class="ty">Thank you.</p>
- <footer>
-    <p>&copy; 2026 A. Consultation Firm Inc. | All Rights Reserved</p>
-  </footer>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Articles</a>
+      <div class="dropdown-content">
+        <a href="pages/articles/ec.html">E-commerce</a>
+        <a href="pages/articles/policy.html">Policy Change</a>
+        <a href="pages/articles/taxcredit.html">Personal Tax-credit</a>
+      </div>
+    </li>
+
+    <li>
+      <a href="pages/investments.html">Investments</a>
+    </li>
+  </ul>
+</nav>
+
+<main>
+  <section class="index">
+    <p>
+      ACF Inc. values your questions and is committed to improving the standard of living in Scarborough, Ontario.
+    </p>
+  </section>
+
+  <p class="ty">Thank you.</p>
+</main>
+
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
-
 </html>
-
