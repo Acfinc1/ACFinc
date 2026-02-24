@@ -5,7 +5,11 @@
   <title>Articles</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 </head>
 
 <body>
@@ -14,11 +18,11 @@
 
 <header><h2>Articles</h2></header>
 
-<div class="navbar">
+<nav class="navbar">
   <ul class="navbar-menu">
     <li><a href="../../index.html">HOME</a></li>
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Organization</a>
+      <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true">Organization</a>
       <div class="dropdown-content">
         <a href="../organ/aboutus.html">ABOUT US</a>
         <a href="../organ/career.html">CAREER</a>
@@ -26,14 +30,14 @@
       </div>
     </li>
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Services</a>
+      <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true">Services</a>
       <div class="dropdown-content">
         <a href="../services/individual.html">Individual</a>
         <a href="../services/sbc.html">Small Business</a>
       </div>
     </li>
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Articles</a>
+      <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true">Articles</a>
       <div class="dropdown-content">
         <a href="ec.html">E-commerce</a>
         <a href="policy.html">Policy Change</a>
@@ -42,9 +46,9 @@
     </li>
     <li><a href="../investments.html">INVESTMENTS</a></li>
   </ul>
-</div>
-
-<div class="article">
+</nav>
+<main>
+<article class="article">
 
   <h2 class="article-title"><u> Analysis of Policy Changes</u></h2>
 
@@ -90,13 +94,26 @@
     </tbody>
   </table>
 
-  <p>Edited May 3, 2025</p>
+      <footer>
+      <p>Edited on May 3, 2025.</p>
+    </footer>
+ </article>
 
-  <a href="taxcredit.html" class="fixed-btnr">Next</a>
-  <a href="ec.html" class="fixed-btnl">Previous</a>
-</div>
+  <section class="article-end">
+    <p class="ty">Thank you.</p>
+  </section>
+    <a href="ec.html" class="fixed-btnr">Next</a>
+    <a href="policy.html" class="fixed-btnl">Previous</a>
+ 
+</main>
 
-<p class="ty">Thank you.</p>
+<footer class="f">
+  <p>&copy; <span id="year"></span> A. CF Inc. All Rights Reserved.</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
