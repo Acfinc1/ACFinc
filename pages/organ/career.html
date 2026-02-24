@@ -6,7 +6,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 
 
 </head>
@@ -16,7 +20,8 @@
   <!--Bismillah-->
   <header><h2>Career</h2></header>
 
-  <div class="navbar">
+
+  <nav class="navbar">
     <ul class="navbar-menu">
       <li><a href="../../index.html">HOME</a></li>
       <li class="dropdown">
@@ -44,14 +49,24 @@
       </li>
       <li><a href="../investments.html">INVESTMENTS</a></li>
     </ul>
-  </div>
-
+  </nav>
+  <main>
   <div class="org">
     If you are interested in participating with our organization, please send your resume to our email address: Asifconsultationinc@gmail.com.
   </div>
 
   <p class="ty">Thank you.</p>
+</main>
 
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
 
