@@ -9,7 +9,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 
 </head>
 
@@ -20,7 +24,9 @@
 
 <header><h2>Individual</h2></header>
 
-<div class="navbar">
+
+
+<nav class="navbar">
 <ul class="navbar-menu">
 <li><a href="../../index.html">HOME</a></li>
 <li class="dropdown">
@@ -29,7 +35,7 @@
 <a href="../organ/aboutus.html">ABOUT US</a>
 <a href="../organ/career.html">CAREER</a>
 <a href="../organ/contact.html">CONTACT</a>
-</div>
+</div></li>
 
 <li class="dropdown">
 <a href="javascript:void(0)" class="dropbtn">Services</a>
@@ -48,8 +54,8 @@
 </li>
   <li><a href="../investments.html">INVESTMENTS</a></li>
 </ul>
-</div>
-
+</nav>
+<main>
 <div class="service">
 <h3 style="text-align:center; text-decoration:underline;margin-bottom:20px;">Services for Individuals</h3>
 <p> In the scope of competitive investment, we are taking a micro approach to help our clients.
@@ -71,7 +77,17 @@ We offer personalized services designed to help you grow and manage your wealth 
 
 
 <p class="ty">Thank you.</p>
+</main>
 
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
 </body>
