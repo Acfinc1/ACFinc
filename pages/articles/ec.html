@@ -2,20 +2,24 @@
 <html lang="en">
 
 <head>
-<title>Articles</title>
+<title>Articles| A. Consultation Firm Inc.</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="../../css/style.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 
 </head>
 
 <body>
-
+  <!--Bismillah-->
 <header><h2>Articles</h2></header>
 
-<div class="navbar">
+<nav class="navbar">
 <ul class="navbar-menu">
 
 <li><a href="../../index.html">HOME</a></li>
@@ -45,15 +49,13 @@
 <a href="taxcredit.html">Personal Tax-credit</a>
 </div>
 </li>
-
 <li><a href="../investments.html">INVESTMENTS</a></li>
 
 </ul>
-</div>
-
-<div class="article">
-
-<h2 class="article-title"><u>Supporting small businesses in the age of E-Commerce Challenges</u></h2>
+</nav>
+<main>
+  <article class="article">
+    <h2 class="article-title">Supporting small businesses in the age of E-Commerce Challenges</h2>
 
 <p>Small businesses earn income by providing goods & services or producing goods. They can sell goods at large quantities within consumer budget or sell few expensive goods.</p>
 
@@ -83,14 +85,27 @@
 
 <p>Before investing, you should reconsider your objectives. Analyze other large investors in these companies, and that will tell you about the company itself and its future. Also, you must understand the tax consequences before investing. As you can see, advice from a certified investment advisor and a tax advisor is very important.</p>
 
-<p>Edited on December 20, 2024.</p>
+    <footer>
+      <p>Edited on February 22, 2024.</p>
+    </footer>
+  </article>
 
-<a href="policy.html" class="fixed-btnr">Next</a>
-<a href="taxcredit.html" class="fixed-btnl">Previous</a>
+  <section class="article-end">
+    <p class="ty">Thank you.</p>
+  </section>
 
-</div>
+  <a href="policy.html" class="fixed-btnr">Next</a>
+  <a href="taxcredit.html" class="fixed-btnl">Previous</a>
+</main>
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+</footer>
 
-<p class="ty">Thank you.</p>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
