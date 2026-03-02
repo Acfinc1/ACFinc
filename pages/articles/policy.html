@@ -8,7 +8,13 @@
     <meta name="description" content="A. Consultation Firm Inc. provides professional business consulting services in Scarborough. We help businesses reduce costs, improve efficiency, and enhance service quality.">
   <meta name="keywords" content="Business Consulting, Accounting, Scarborough, Tax Services, Small Business Consulting">
   <meta name="author" content="A. Consultation Firm Inc.">
+   <meta property="og:title" content="Analysis of Policy Changes">
+<meta property="og:description" content="Impact of financial budget & policy changes on interest rates, minimum wage, tax rate, and social benefits.">
+<meta property="og:image" content="../../images/w.jpeg">
+<meta property="og:url" content="https://www.acfirminc.com/articles/policy.html">
   <!-- Google Font -->
+  <meta property="og:title" content="Analysis of Policy Changes">
+<meta property="og:description" content="An in-depth analysis of the impact of policy changes on small businesses and investors.">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
@@ -19,36 +25,48 @@
 
 <!--Bismillah-->
 
-<header><h2>Articles</h2></header>
-
+<header><h1>Articles</h1></header>
 <nav class="navbar">
+  <!-- Hamburger button -->
+  <button class="hamburger" aria-label="Toggle menu">☰</button>
+
   <ul class="navbar-menu">
     <li><a href="../../index.html">HOME</a></li>
+    
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true">Organization</a>
+     <a href="#" class="dropbtn">Organization</a>
       <div class="dropdown-content">
         <a href="../organ/aboutus.html">ABOUT US</a>
         <a href="../organ/career.html">CAREER</a>
         <a href="../organ/contact.html">CONTACT</a>
       </div>
     </li>
+
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true">Services</a>
+      <a href="#" class="dropbtn">Services</a>
       <div class="dropdown-content">
         <a href="../services/individual.html">Individual</a>
         <a href="../services/sbc.html">Small Business</a>
       </div>
     </li>
+
     <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true">Articles</a>
+      <a href="#" class="dropbtn">Articles</a>
       <div class="dropdown-content">
         <a href="policy.html">Policy Change</a>
         <a href="taxcredit.html">Personal Tax-credit</a>
       </div>
     </li>
-    <li><a href="../investments.html">INVESTMENTS</a></li>
+    
+    <li class="dropdown">
+       <a href="#" class="dropbtn">Investments</a>
+       <div class="dropdown-content">
+         <a href="../investments.html">Ventures</a>
+      </div>
+    </li>
   </ul>
 </nav>
+
 <main>
 <article class="article">
 
@@ -113,10 +131,7 @@
 <footer class="f">
   <p>&copy; <span id="year"></span> A. CF Inc. All Rights Reserved.</p>
 </footer>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+<script src="../../js/script.js"></script>
 
 </body>
 </html>
