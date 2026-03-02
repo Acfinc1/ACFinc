@@ -6,9 +6,12 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A. Consultation Firm Inc. provides professional business consulting services in Scarborough. We help businesses reduce costs, improve efficiency, and enhance service quality.">
   <meta name="keywords" content="Business Consulting, Accounting, Scarborough, Tax Services, Small Business Consulting">
   <meta name="author" content="A. Consultation Firm Inc.">
+  <meta name="description" content="A. Consultation Firm Inc. is seeking investors for high-potential community-driven projects. Explore opportunities in the Umrah travel industry, a modern grocery store, and fast food ventures.">
+<meta name="keywords" content="investments, business ventures, community development, Islamic center, Umrah travel packages, fast food restaurant, Scarborough investments">
+<meta property="og:image" content="../w.jpeg">
+<meta property="og:url" content="https://www.acfirminc.com/investments.html">
    <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
 
@@ -19,35 +22,45 @@
 <body>
 <!--Bismillah-->
 <header>
-  <h2>Investments</h2>
+  <h1>Investments</h1>
 </header>
 
 <nav class="navbar">
+  <!-- Hamburger button -->
+  <button class="hamburger" aria-label="Toggle menu">☰</button>
 <ul class="navbar-menu">
     <li><a href="../index.html">Home</a></li>
-    <li class="dropdown" aria-label="Organization Menu">
-      <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Organization</a>
-      <div class="dropdown-content" aria-labelledby="dropdown1">
+    <li class="dropdown">
+
+    <a href="#" class="dropbtn">Organization</a>
+      <div class="dropdown-content">
         <a href="organ/aboutus.html">About Us</a>
         <a href="organ/career.html">Career</a>
         <a href="organ/contact.html">Contact</a>
       </div>
     </li>
-    <li class="dropdown" aria-label="Services Menu">
-      <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Services</a>
-      <div class="dropdown-content" aria-labelledby="dropdown2">
+   <li class="dropdown">
+        <a href="#" class="dropbtn">Services</a>
+        <div class="dropdown-content">
         <a href="services/individual.html">Individual</a>
         <a href="services/sbc.html">Small Business</a>
       </div>
     </li>
-    <li class="dropdown" aria-label="Articles Menu">
-      <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Articles</a>
-      <div class="dropdown-content" aria-labelledby="dropdown3">
+
+    <li class="dropdown">
+       <a href="#" class="dropbtn">Articles</a>
+        <div class="dropdown-content">
         <a href="articles/policy.html">Policy Change</a>
         <a href="articles/taxcredit.html">Personal Tax-credit</a>
       </div>
     </li>
-    <li><a href="investments.html">Investments</a></li>
+
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Investments</a>
+          <div class="dropdown-content">
+    <a href="investments.html">Ventures</a>
+  </div>
+</li>
   </ul>
 </nav>
 
@@ -110,9 +123,7 @@
   </p>
 </footer>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>
