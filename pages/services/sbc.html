@@ -22,37 +22,45 @@
 
 <!--Bismillah-->
 
-<header><h2>Small Business</h2></header>
+<header><h1>Small Business</h1></header>
 
 
-<div class="navbar">
+<nav class="navbar">
+ <!-- Hamburger button -->
+  <button class="hamburger" aria-label="Toggle menu">☰</button>
 <ul class="navbar-menu">
-<li><a href="../../index.html">HOME</a></li>
-<li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn">Organization</a>
+  <li><a href="../../index.html">HOME</a></li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">Organization</a>
 <div class="dropdown-content">
-<a href="../organ/aboutus.html">ABOUT US</a>
+    <a href="../organ/aboutus.html">ABOUT US</a>
 <a href="../organ/career.html">CAREER</a>
 <a href="../organ/contact.html">CONTACT</a>
 </div></li>
-
-<li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn">Services</a>
-<div class="dropdown-content">
+ <li class="dropdown">
+      <a href="#" class="dropbtn">Services</a>
+      <div class="dropdown-content">
 <a href="individual.html">Individual</a>
 <a href="sbc.html">Small Business</a>
 </div>
 </li>
-  <li class="dropdown">
-<a href="javascript:void(0)" class="dropbtn">Articles</a>
+   <li class="dropdown">
+ <a href="#" class="dropbtn">Articles</a>
 <div class="dropdown-content">
 <a href="../articles/policy.html">Policy Change</a>
 <a href="../articles/taxcredit.html">Personal Tax-credit</a>
 </div>
 </li>
-  <li><a href="../investments.html">INVESTMENTS</a></li>
-</ul>
-</div>
+
+    <li class="dropdown">
+       <a href="#" class="dropbtn">Investments</a>
+       <div class="dropdown-content">
+        <a href="../investments.html">Ventures</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
 <main>
 <div class="service">
  <h3 style="text-align:center; text-decoration:underline; margin-bottom:20px;">Services for Small Businesses</h3>
@@ -72,7 +80,7 @@ Our approach is designed to support small businesses including those generating 
 </ul>
 <p>We believe that by providing the tools and support that small businesses need, we can help them not only survive but thrive in the competitive e-commerce world. 
 Let's work together to keep your business competitive and your customers satisfied.</p>
-<p>Consideration is $90.00 per hour.</p>
+<p><strong>Consideration is $90.00 per hour.</strong></p>
 </div>
 <p class="ty">Thank you.</p>
 </main>
@@ -83,9 +91,8 @@ Let's work together to keep your business competitive and your customers satisfi
   </p>
 </footer>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+ <!-- External JavaScript File -->
+<script src="../../js/script.js"></script>
 </body>
 </html>
 
