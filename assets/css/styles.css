@@ -29,7 +29,7 @@ body {
   font-family: 'Source Sans 3', sans-serif;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-align: justify;
+  text-align: left;
   color: black;
   font-size: 19px;
   min-height: 100vh;
