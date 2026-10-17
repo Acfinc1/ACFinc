@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
 /* =========================
    ROOT VARIABLES
 ========================= */
@@ -10,13 +12,10 @@
 }
 
 /* =========================
-   RESET
+   RESET + DOCUMENT
 ========================= */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 
 /* =========================
    BODY + FLEX LAYOUT FOR FOOTER
@@ -36,20 +35,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+main { flex: 1; padding: 0 20px; }
 
-main {
-  flex: 1;
-  padding: 0 20px;
-}
-
-/* Hyphenation Added */
-.article,
-.index,
-.investment,
-.service,
-.org {
-  hyphens: auto;
-}
+/* Hyphenation */
+.article, .index, .investment, .service, .org { hyphens: auto; }
 
 /* =========================
    HEADER
@@ -61,6 +50,7 @@ header {
   font-weight: bold;
   padding: 15px;
 }
+.site-heading { color: black; text-decoration: none; }
 
 /* =========================
    INDEX / INVESTMENT / ARTICLE / SERVICE / ORGANIZATION PAGES
@@ -74,22 +64,19 @@ header {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
 .article {
   background-color: rgba(229, 232, 229, 0.7);
   outline: 5px solid white;
 }
-
 .article-title { text-decoration: underline; margin-bottom: 20px; }
-
-.investment-list, .srv-list, .org ul {
-  padding-left: 50px;
-  margin-top: 20px;
-}
-
-.investment-list li, .srv-list li, .org li {
-  margin: 15px 0;
-}
+h2, h3 { line-height: 1.35; margin: 1.4em 0 .55em; }
+h2 { font-size: 1.45em; }
+h3 { font-size: 1.15em; }
+p { margin: 0 0 1em; }
+ul { padding-left: 50px; margin-top: 12px; margin-bottom: 20px; }
+li { margin: 8px 0; }
+.investment-list, .srv-list, .org ul { padding-left: 50px; margin-top: 20px; }
+.investment-list li, .srv-list li, .org li { margin: 15px 0; }
 
 /* =========================
    IMAGES
@@ -103,43 +90,59 @@ header {
   height: auto;
   transition: box-shadow 0.3s ease;
 }
-
-.umrahimg:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
+.umrahimg:hover { box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); }
 
 /* =========================
    TABLE STYLING
 ========================= */
-.table-container {
-  overflow-x: auto;
-  margin-bottom: 20px;
-}
-
+.table-container, .table-wrap { overflow-x: auto; margin: 0 0 20px; }
 table {
   width: 100%;
   border-collapse: collapse;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin-top: 20px;
+  font-size: 0.9em;
+  letter-spacing: 0;
 }
-
 th, td {
   border: 1px solid #ccc;
   padding: 12px;
   text-align: left;
   vertical-align: top;
 }
+th { background-color: var(--table-header); color: black; text-transform: uppercase; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+td ul { padding-left: 15px; margin: 0; list-style-type: disc; }
+.statement-label { margin: 8px 0; font-weight: bold; }
 
-th {
-  background-color: var(--table-header);
-  color: black;
-  text-transform: uppercase;
+/* Journal entry explanatory rows */
+.entry-note td {
+  background: #f7f9f7;
+  color: #444;
+  font-style: italic;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
-tr:nth-child(even) { background-color: #f2f2f2; }
-
-td ul { padding-left: 15px; margin: 0; list-style-type: disc; }
+/* =========================
+   FINANCIAL STATEMENTS
+========================= */
+.statement-heading {
+  text-align: center;
+  margin: 4px 0;
+  line-height: 1.35;
+}
+.statement-date {
+  text-align: center;
+  margin: 4px 0 12px;
+  font-style: italic;
+}
+.statement-table { margin-bottom: 24px; }
+.statement-table table { min-width: 0; }
+.statement-table td.amount { text-align: right; white-space: nowrap; }
+.statement-table .total-row td { font-weight: bold; border-top: 2px solid #333; }
+.statement-table .subheading { font-weight: bold; background: #e5e8e5; }
 
 /* =========================
    THANK YOU TEXT
@@ -166,19 +169,9 @@ td ul { padding-left: 15px; margin: 0; list-style-type: disc; }
   margin-top: 50px;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.f a {
-  color: black;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
+.f a { color: black; text-decoration: none; transition: 0.3s; }
 .f a:hover { text-decoration: underline; color: var(--hover-green); }
-
-a:focus {
-  outline: 2px solid var(--hover-green);
-  outline-offset: 2px;
-}
+a:focus { outline: 2px solid var(--hover-green); outline-offset: 2px; }
 
 /* =========================
    FIXED BUTTONS
@@ -195,14 +188,11 @@ a:focus {
   z-index: 1000;
   transition: 0.3s;
 }
-
 .fixed-btnr:hover, .fixed-btnl:hover { background-color: var(--hover-green); }
-
 .fixed-btnr:focus, .fixed-btnl:focus {
   outline: 2px solid var(--hover-green);
   box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.7);
 }
-
 .fixed-btnr { right: 50px; }
 .fixed-btnl { left: 50px; }
 
@@ -218,9 +208,8 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  min-height: 70px;
 }
-
 .navbar-menu {
   list-style: none;
   display: flex;
@@ -233,9 +222,7 @@ a:focus {
   font-weight: bold;
   font-size: 15px;
 }
-
 .navbar-menu li { position: relative; }
-
 .navbar-menu li a, .dropbtn {
   display: block;
   color: black;
@@ -244,10 +231,7 @@ a:focus {
   position: relative;
   transition: color 0.3s ease;
 }
-
-/* Hover underline animation */
-.navbar-menu li a::after,
-.dropbtn::after {
+.navbar-menu li a::after, .dropbtn::after {
   content: "";
   position: absolute;
   width: 0%;
@@ -257,11 +241,7 @@ a:focus {
   background: black;
   transition: width 0.3s ease;
 }
-
-.navbar-menu li a:hover::after,
-.dropdown:hover .dropbtn::after { width: 100%; }
-
-/* Dropdown menu */
+.navbar-menu li a:hover::after, .dropdown:hover .dropbtn::after { width: 100%; }
 .navbar-menu .dropdown-content {
   display: none;
   position: absolute;
@@ -274,24 +254,15 @@ a:focus {
   overflow: hidden;
   z-index: 1000;
 }
-
 .navbar-menu .dropdown-content a {
   color: black;
   text-transform: none;
   font-weight: normal;
   padding: 12px 16px;
 }
-
-.navbar-menu .dropdown-content a:hover { 
-  background-color: var(--hover-green); 
-  color: white; 
-}
-
-/* Show dropdown on desktop hover */
+.navbar-menu .dropdown-content a:hover { background-color: var(--hover-green); color: white; }
 @media (min-width: 769px) {
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  .dropdown:hover .dropdown-content { display: block; }
 }
 
 /* =========================
@@ -311,6 +282,7 @@ a:focus {
    MOBILE NAVIGATION
 ========================= */
 @media screen and (max-width: 768px) {
+  .navbar { padding: 0 20px; }
   .hamburger {
     display: block;
     position: absolute;
@@ -319,7 +291,6 @@ a:focus {
     transform: translateY(-50%);
     font-size: 35px;
   }
-
   .navbar-menu {
     display: none;
     flex-direction: column;
@@ -330,20 +301,11 @@ a:focus {
     background-color: var(--primary);
     border-top: 1px solid rgba(0,0,0,0.1);
     z-index: 999;
+    gap: 0;
   }
-
-  .navbar-menu.active {
-    display: flex;
-  }
-
+  .navbar-menu.active { display: flex; }
   .navbar-menu li { width: 100%; }
-
-  .navbar-menu li a, .dropbtn {
-    width: 100%;
-    padding: 12px 20px;
-    color: black;
-  }
-
+  .navbar-menu li a, .dropbtn { width: 100%; padding: 12px 20px; color: black; }
   .navbar-menu .dropdown-content {
     position: relative;
     display: none;
@@ -352,35 +314,29 @@ a:focus {
     background-color: var(--light-green);
     border-radius: 0;
   }
-
-  .dropdown.active > .dropdown-content {
-    display: flex;
-  }
+  .dropdown.active > .dropdown-content { display: flex; }
 }
-
-/* =========================
-   SMOOTH SCROLL
-========================= */
-html { scroll-behavior: smooth; }
 
 /* =========================
    MOBILE TABLE ADJUSTMENTS
 ========================= */
 @media screen and (max-width: 600px) {
   body { font-size: 17px; }
+  main { padding: 0 10px; }
+  .index, .investment, .article, .service, .org {
+    margin: 25px auto;
+    padding: 24px 18px;
+  }
   .fixed-btnr { right: 15px; bottom: 20px; }
   .fixed-btnl { left: 15px; bottom: 20px; }
-
   table, thead, tbody, th, td, tr { display: block; }
   thead tr { display: none; }
-
   td {
     position: relative;
     padding-left: 50%;
     border: none;
     border-bottom: 1px solid #ddd;
   }
-
   td::before {
     position: absolute;
     top: 12px;
@@ -390,5 +346,23 @@ html { scroll-behavior: smooth; }
     font-weight: bold;
     content: attr(data-label);
   }
+  .table-wrap:not(.statement-table) table { min-width: 760px; }
+  .statement-table table, .statement-table tbody,
+  .statement-table tr, .statement-table td, .statement-table th { display: table-cell; }
+  .statement-table table { display: table; }
+  .statement-table thead { display: table-header-group; }
+  .statement-table tbody { display: table-row-group; }
+  .statement-table tr { display: table-row; }
+  .statement-table th, .statement-table td { padding: 9px; }
+  .statement-table td::before { content: none; }
 }
 
+/* =========================
+   PRINT
+========================= */
+@media print {
+  body { background: white; }
+  header, nav, .f, .fixed-btnr, .fixed-btnl { display: none; }
+  main { padding: 0; }
+  .article { margin: 0; outline: none; box-shadow: none; max-width: none; }
+}
